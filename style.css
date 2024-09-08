@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    font-family: 'melancholy';
+    filter: brightness(1.2em);
+}
+.header_bar{
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+.nav-right-fonts{
+    font-family: 'izayoi';
+    margin-right: 50px;
+
+}
+.audio-controller{
+    margin-left: 20px;
+    width: 35px;
+}
+.source-button{
+    margin-left: 12px;
+    background-color: red;
+    border-radius: 999px;
+    font-size: 16px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.align-items{
+    align-items: center;
+}
+.text-white{
+    color: white;
+}
+.header_bar{
+    height: 40px;    
+
+}
+.hamburger-stuff{
+    padding: 0px 6px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.logo{
+    height: 2em;
+    width: 2em;
+    margin-left: 40px;
+    /* margin-top: 9px; */
+}
+.square_size{
+    height: 2.5em;
+    width: 2.5em;
+    filter: hue-rotate(140deg);
+}
+
+.hakurei_name{
+    font-family: 'melancholy';
+    text-decoration: none;
+    font-weight: 900;
+    margin-left: 5px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+
+
+}
+.text-white{
+    color: white;
+}
+#background{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(1.2);
+}
+@font-face {
+    font-family: "melancholy";
+    src: url(melancholy.otf);
+}
+@font-face {
+    font-family: "izayoi";
+    src: url("izayoiMonospaced.ttf");
+}
+.layer1{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    height: 450px;
+    width: 86%;
+    margin-left: 7%;
+    position: relative;
+    top: -783px;
+    font-family: 'kawashiro';
+    
+}
+.greetings{
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+    font-size: 28px;
+    margin-bottom: 10px;
+    }
+.description{
+    font-size: 14.2px;
+    line-height: 20px;
+    text-align: justify;
+    font-family: auto;
+}
+
+.layer1left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+    top: 120px;
+    position: relative;
+    left: 60px;
+
+    /* text-align: center; */
+
+}
+.donate_button{
+    font-weight: 600;
+    color: white;
+    border: 3px solid white;
+    border-radius: 999px;
+    margin-top: 50px;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-family: 'kawashiro';
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(107, 39, 0, 0.5));
+    
+}
+
+.raymoo_img{
+    right: 64px;
+    bottom: 138px;
+    position: relative;
+    width: 520px;
+    height: 330px;
+}
+
+.layer1right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: center;
+    font-family: auto;
+    
+}
+.raymoo_credits{
+    color: white;
+    position: relative;
+    bottom: 130px;
+    right: 230px;
+    font-size: 13px;
+}
+.illustration_credits{
+    text-decoration: underline;
+}
+.bg_credits{
+    left: 640px;
+    position: relative;
+    bottom: 110px;
+    max-width: 220px;
+    font-size: 11px;
+    padding: 7px 0px;
+    text-decoration: underline;
+    text-align: center;
+    font-family: auto;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    line-height: 20px;
+}
+
+@font-face {
+    font-family: 'kawashiro';
+    src: url(kawashiroGothic.ttf);
+}
